@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(105, 100, 41);
+    color: #ffffff;
+    font-family: "Playwrite NZ Basic", cursive;
+}
