@@ -1,6 +1,6 @@
 # 🚀 Mini-Frontend-Practice-Projects
 
-This repository contains my frontend practice projects built using HTML, CSS, and JavaScript.
+This repository contains my 20 frontend practice projects built using HTML, CSS, and JavaScript.
 
 ---
 
