@@ -13,12 +13,12 @@ function getAgeDetails(birthDate) {
 
     if (days < 0) {
         months--;
-        const previousMonth = new Date(
+        const currentPreviousMonth = new Date(
             currentDate.getFullYear(),
             currentDate.getMonth(),
             0
         ).getDate();
-        days += previousMonth;
+        days += currentPreviousMonth;
     }
 
     if (months < 0) {
