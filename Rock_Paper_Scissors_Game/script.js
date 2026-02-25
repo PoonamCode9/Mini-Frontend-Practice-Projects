@@ -7,7 +7,7 @@ let playerScore = 0;
 let computerScore = 0;
 
 function computerPlay() {
-    const choices = ["rock", "paper", "scissor"];
+    const choices = ["rock", "paper", "scissors"];
     const randomChoice = Math.floor(Math.random() * choices.length);
     return choices[randomChoice];
 };
@@ -16,9 +16,9 @@ function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
         return "It's a tie!";
     } 
-    else if((playerSelection === "rock" && computerSelection === "scissor") || 
+    else if((playerSelection === "rock" && computerSelection === "scissors") || 
             (playerSelection === "paper" && computerSelection === "rock") || 
-            (playerSelection === "scissor" && computerSelection === "paper")
+            (playerSelection === "scissors" && computerSelection === "paper")
         ) {
         playerScore++;
         playerScr.textContent = playerScore;
