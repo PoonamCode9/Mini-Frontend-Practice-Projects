@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+}
+
+.img-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 10px;
+} 
+
+img {
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: rgb(129, 111, 248);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+} 
