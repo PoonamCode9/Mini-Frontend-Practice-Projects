@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --primary-color: #5e3023;
-    --secondary-color: #895737;
-    --background-color: #f3e9dc;
-    --card-color: #ffffff;
-    --text-color: #3d2c2c;
-}
-
 body {
     font-family: sans-serif;
     background-color: #f3e9dc;
