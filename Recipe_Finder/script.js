@@ -13,7 +13,7 @@ const BASE_URL = "https://www.themealdb.com/api/json/v1/1/";
 const SEARCH_URL = `${BASE_URL}search.php?s=`;
 const LOOKUP_URL = `${BASE_URL}lookup.php?i=`;
 
-searchBtn.addEventListener("click", searchMeals)
+searchBtn.addEventListener("click", searchMeals);
 
 mealsContainer.addEventListener("click", handleMealClick);
 
@@ -120,7 +120,11 @@ async function handleMealClick(e) {
                         ${ingredients.map((item) => `<li><i class="fa-solid fa-circle-check"></i> ${item.measure} ${item.ingredient}</li>`).join("")}
                     </ul>
                 </div>
-            `;
+
+                ${meal.strYoutube ? `<a href="${meal.strYoutube}" target="_blank" class="youtube-link">
+                    <i class="fa-brands fa-youtube"></i> Watch on YouTube
+                </a>`
+                : ""}`;
 
             mealDetails.classList.remove("hidden");
             mainPage.classList.add("hidden");
